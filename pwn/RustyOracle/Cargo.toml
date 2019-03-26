@@ -1,0 +1,13 @@
+[package]
+name = "oracle"
+version = "0.1.0"
+authors = ["boogy"]
+build = "build.rs"
+
+[dependencies]
+libc = "0.2.43"
+regex = "1.0.5"
+lazy_static = "1.2.0"
+
+[build-dependencies]
+cc = "1.0"
